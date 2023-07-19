@@ -1,3 +1,281 @@
-h1 {
-    color: brown;
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Work+Sans:wght@400;600;700&display=swap');
+
+
+{
+    box-sizing:border-box;
 }
+ body {
+ font-family: 'Lato', sans-serif;
+font-family: 'Work Sans', sans-serif;
+ }
+
+
+ nav {
+    width: 1300px;
+    height: 130px;
+    background: #FFF;
+
+ }
+
+.nav-container {
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    max-width: 1400px ;
+    margin: 0 auto;
+    text-align: center;
+
+
+
+}
+
+.logo-containner {
+display: flex;
+align-items: center;
+width: 50%;
+gap: 20px;
+
+
+}
+ 
+.logo-containner img {
+    width: 86.041px;
+    height: 40px;
+    gap: 20px;
+}
+    
+
+
+.logo-containner p {
+font-size: 3em;
+font-weight: 700;
+text-align: center;
+
+}
+.game {
+    color: #F948B2;
+}
+
+
+.nav-item-container {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 500;
+    align-items: center;
+}
+.nav-item-container a {
+    text-decoration: none;
+}
+ .login-btn {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 10px 20px ;
+}
+
+
+
+
+.banner-container {
+    margin: 50px auto 0;
+    max-width: 1400px;
+    min-height: 50px;
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.banner-text {
+    width: 50%;
+    text-align: center;
+
+}
+.banner-text h2 {
+color: #0B0223;
+text-align: center;
+font-size: 2.5em;
+font-weight: 600;
+margin-bottom: 20px;
+text-transform: uppercase;
+}
+.banner-text h1 {
+    text-align: center;
+    font-size: 4.2em;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom:20px;
+    margin-top: 10px;
+       
+}
+ .banner-text p {
+color: #534C64;
+font-size: 1 em;
+font-weight: 500;
+
+ }
+ .banner-button-one {
+    padding: 21px 40px;
+    border-radius: 40px;
+    color: #FFF;
+    font-size: 1.1em;
+    font-weight: 600;
+    background-color: #F948B2;
+     border-radius: 40px;
+     text-transform: uppercase;
+
+}
+
+
+.banner-button-two {
+    border-radius: 48px;
+    background: skyblue;
+    padding: 21px 40px;
+    color: #FFF;
+    font-size: 1.1em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+.banner-img {
+    width: 50%;
+}
+.banner-img img {
+   width:100%;
+   height: 100%;
+}
+
+
+
+
+
+.online-gams {
+   max-width: 1400px ;
+   margin: 0 auto;
+   margin-top: 20px;
+   padding: 20px ;
+
+}
+.heading {
+    margin-bottom:25px ;
+}
+.heading ,h1 {
+    text-align: center;
+    
+}
+ .heading , p {
+    color: #534C64;
+text-align: center;
+font-size: 1EM;
+font-weight: 400;
+
+}
+.img-four {
+    max-width: 1400px ;
+    margin-left: 120px;
+    overflow: auto;
+
+}
+.gallery {
+    margin: 5px;
+    float: left;
+    width:20%;
+    display: block;
+    padding: 10px;
+    padding-left: 12px;
+    
+}
+.gallery img {
+    width: 100%;
+    hight:auto;
+    border-radius: 16px;
+
+
+
+
+}
+.desc {
+    padding: 15px;
+    text-align: center ;
+    color: #534C64;
+    font-size: 1em;
+    font-weight: 500;
+}
+    
+
+.play {
+    background: #FFF;
+    display: flex;
+    margin-top: 130px;
+    gap: 100px;
+    margin-left: 120px;
+    margin-right: 180px;
+    }
+    
+    .play-content {
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+    
+    
+    
+    .play-title {
+    font-size: 3rem;
+    font-weight: 700;
+    }
+    
+    .text-light-gray {
+    color: #534C64;
+    font-size: 1em;
+    font-weight: 400;
+    width: 353px;
+    }
+    
+    .play-img,.hors {
+    width: 600px;
+    height: 600px;
+    border-radius: 10px;
+    
+    }
+     .play-img {
+      position: relative;
+
+     }
+     .my{
+
+        position: absolute;
+        width:50% ;.play-content 
+            align-items: center;
+            justify-content: center;
+             height: 50%;
+        top :0;
+        left: 0%;
+
+     }
+
+     .point-container {
+    margin: 100px 100px 100px;
+    max-width: 1400px;
+    min-height: 50px;
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+     }
+      .point-btn {
+         display: grid;
+         grid-template-columns: repeat(5,1fr);
+         justify-content: center;
+         gap :40px;
+         text-align: center;
+      }
+      .point-btn img p {
+        display: inline;
+      }
